@@ -1,0 +1,11 @@
+#note the sequence of your code
+ 
+#Sequencing-----
+ 
+human_age = int(input("Please Enter your age: "))
+ 
+human_to_dog = human_age / 7
+ 
+print("The dog would be: ", human_to_dog, "in dog years")
+ 
+#This piece of code asks the user their age and then finds out what age a dog would be. This is done by dividing their age by 7. The code then prints out the equivalent age.
