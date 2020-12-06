@@ -1,0 +1,24 @@
+#event driven example
+countryLocation = "Sweden"
+countryLocation1 = "England"
+countryLocation2 = "Scotland"
+ 
+print(countryLocation)
+print(countryLocation1)
+print(countryLocation2)
+ 
+#procedural example one
+def my_function(country):
+ print(country + " is awful")
+ 
+my_function("Sweden")
+my_function("England")
+my_function("Scotland")
+ 
+#example two
+def userlogin(emailaddress, username, password, confirm_password):
+ print("user Details", emailaddress, username, password, confirm_password)
+ 
+userlogin("Email123@gmail.com", "bob2", "Password123", "Password123")
+ 
+userlogin("student@grnngroup.ac.uk", "Student123", "Wentworth1", "Wentworth1")
