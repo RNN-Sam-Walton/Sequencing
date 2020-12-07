@@ -1,5 +1,8 @@
 import pandas as pd
+#This code loads up the Pandas libary.
 
 df = pd.read_csv('patients.csv')
 print(df)
+#This piece of code loads up the "patients.csv" file and reads the text from it.
+
 print(df[["GENDER", "VISIT"]])
