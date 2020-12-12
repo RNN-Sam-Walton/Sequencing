@@ -6,3 +6,4 @@ print(df)
 #This piece of code loads up the "patients.csv" file and reads the text from it.
 
 print(df[["GENDER", "VISIT"]])
+#This piece of code prints data from both the Gender and Visit columns.
