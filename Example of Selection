@@ -1,11 +1,14 @@
 import pandas as pd
+#This piece of code loads up the pandas libary
 
 df = pd.read_json("test.json")
 df1 = pd.read_json("train.json")
 print(df1)
+#This piece of code loads up the "test.json" file and prints th data from it.
 
 x = int(input("Please input an id: "))
 print("The ingredients are: \n", df._get_value(x, "ingredients"))
+#This piece of code lists the ingredients from the ID that you have selected.
 
 for x in df.ingredients:
   ings = x
@@ -14,3 +17,4 @@ for x in df.ingredients:
   #print(ings)
   for x in ings:
     print(x)
+#This piece of code formats the structure in how the ingredients are listed.
