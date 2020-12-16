@@ -2,10 +2,12 @@
 countryLocation = "Sweden"
 countryLocation1 = "England"
 countryLocation2 = "Scotland"
- 
+#This piece of code defines 3 countries
+
 print(countryLocation)
 print(countryLocation1)
 print(countryLocation2)
+#This piece of code lists the 3 defined countries
  
 #procedural example one
 def my_function(country):
